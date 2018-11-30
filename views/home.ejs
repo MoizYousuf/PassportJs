@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home </title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .Navbar{
+            width: 100%;
+            height: 60px;
+            background: tomato;
+        }
+        .navbarButton{
+            width: 70px;
+            height: 30px;
+            margin-top: 1%;
+            border: none;
+            background: rgb(240, 140, 122);
+            margin-left: 1%;
+        }
+    </style>
+</head>
+<body>
+   <div class="Navbar">
+       <button class="navbarButton" onclick="location.href='/'">Home</button>
+       <button class="navbarButton" onclick="location.href='/auth/logout'">Logout</button>
+       <button class="navbarButton" onclick="location.href='/auth/login'">Login</button>
+       <button class="navbarButton" onclick="location.href='/auth/google'">Google+</button>
+   </div>
+</body>
+</html>
