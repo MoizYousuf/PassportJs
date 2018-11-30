@@ -7,6 +7,9 @@ module.exports = {
     clientSecret: "qlsQU0zCSLKvoTur6zbzUjsR"
   },
   mongodb: {
-      dbURI: 'mongodb://MoizYousuf:testdb1@ds251435.mlab.com:51435/oauth-passport'
+    dbURI: "mongodb://MoizYousuf:testdb1@ds251435.mlab.com:51435/oauth-passport"
+  },
+  session: {
+    cookieKey: "cookieKey"
   }
 };
